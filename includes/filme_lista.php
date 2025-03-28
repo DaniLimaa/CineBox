@@ -4,6 +4,9 @@
         <div class="row">
 
             <?php foreach ($dadosFilmes as $value ) {
+
+                $generosFilmes = $genero->consultarGeneroByIdFilme($value['id']);
+                
                 include './includes/filme_card.php';
             } ?>
 
