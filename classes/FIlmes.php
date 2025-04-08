@@ -4,7 +4,7 @@ class Filmes
 {
     public $conexaoBanco;
 
-    public function __construct() 
+    public function __construct()   
     {
 
         $dsn = 'mysql:dbname=db_cinebox;host=127.0.0.1';
